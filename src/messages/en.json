@@ -1,0 +1,244 @@
+{
+  "Index": {
+    "title": "JBDEV23 | Portfolio"
+  },
+  "Header": {
+    "nav_work": "Work",
+    "nav_skills": "Skills",
+    "nav_about": "About",
+    "nav_contact": "Contact"
+  },
+  "Footer": {
+    "software_engineer": "Software Engineer",
+    "email": "Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "legal_notice": "Legal Notice",
+    "privacy_policy": "Privacy Policy",
+    "cookies_policy": "Cookies Policy",
+    "built_with": "Built with",
+    "and_brutalism": "and brutalism"
+  },
+  "Hero": {
+    "marquee_items": [
+      "AVAILABLE FOR FREELANCE",
+      "FRONTEND",
+      "BACKEND",
+      "UI/UX"
+    ],
+    "subtitle": "FullStack Developer crafting unapologetic digital experiences. <br></br> <primary>No fluff, just raw performance.</primary>",
+    "btn_projects": "View Projects",
+    "btn_contact": "Contact Me"
+  },
+  "About": {
+    "title": "About Me",
+    "description": "Born in Alcoy. My passion for coding started as a kid with the legendary <scratch>Scratch</scratch>. Today I build real solutions line by line.",
+    "photo_placeholder": "[ PUT YOUR <br></br> PHOTO HERE ]",
+    "availability_title": "Availability",
+    "availability_status": "Open to <freelance>Freelance</freelance>",
+    "btn_contact": "Let's Talk",
+    "languages_title": "Languages",
+    "lang_es": "Spanish",
+    "lang_es_lvl": "Native",
+    "lang_va": "Valencian",
+    "lang_va_lvl": "Native (C1 Official)",
+    "lang_en": "English",
+    "lang_en_lvl": "B2 Official (~C1)",
+    "lang_fr": "French",
+    "lang_fr_lvl": "A2 Homologated",
+    "cv_title": "Curriculum Vitae",
+    "cv_download": "Download PDF",
+    "status_title": "Status",
+    "status_subtitle": "Looking for Internship",
+    "status_desc": "Open to opportunities to apply my knowledge, keep learning and add value in a professional environment. Ready for new challenges!",
+    "edu_title": "Journey & Education",
+    "edu_desc": "Studied in <alcoy>Alcoy</alcoy> until finishing High School. Currently in my 4th year of <engineering>Computer Engineering</engineering> at <upv>UPV</upv> (Valencia), specializing in <software>Software Engineering</software>.",
+    "maker_title": "Maker / Tinkering",
+    "maker_1": "I own a <bold>3D printer</bold> which I use for personal projects. I use <bold>Blender</bold> for modeling and designing parts.",
+    "maker_2": "Currently assembling and configuring my own <bold>NAS server</bold>.",
+    "skills_title": "Soft Skills",
+    "skills_list": [
+      "Communication",
+      "Active Listening & Empathy",
+      "Teamwork",
+      "Group Management",
+      "Conflict Resolution",
+      "Critical Thinking",
+      "Adaptability",
+      "Self-learning"
+    ],
+    "hobbies_title": "Beyond the Keyboard",
+    "hobbies_1": "Active athlete: I've been doing <bold>Judo</bold> my whole life (Brown Belt). I also train running and gym.",
+    "hobbies_2": "Deeply connected to the traditions of my city, actively participating in <bold>Moros y Cristianos de Alcoy</bold>.",
+    "hobbies_3": "Committed to <bold>volunteering</bold> and youth education in my free time."
+  },
+  "Projects": {
+    "title": "Selected Work",
+    "view_all": "View All Projects &rarr;",
+    "services_title": "What I Do",
+    "web_title": "Web",
+    "web_desc": "Next.js, Nest.js, TypeScript, Tailwind",
+    "mobile_title": "Mobile",
+    "mobile_desc": "React Native, Expo, TypeScript",
+    "others_title": "Others",
+    "others_desc": "Python, Java, APIs, Scripts, UI/UX"
+  },
+  "Skills": {
+    "title": "My Arsenal",
+    "status_idle": "IDLE"
+  },
+  "Contact": {
+    "badge": "Open to freelance and company internships",
+    "title": "Let's Work Together?",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email",
+      "emailPlaceholder": "john@example.com",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project...",
+      "submit": "SEND MESSAGE",
+      "submitting": "SENDING...",
+      "success": "Message sent successfully! I'll get back to you soon.",
+      "error": "Failed to send message. Please try again.",
+      "termsLabel": "I have read and accept the ",
+      "termsLink": "privacy policy"
+    },
+    "errors": {
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email address",
+      "messageRequired": "Message is required",
+      "messageTooShort": "Message must be at least 10 characters long",
+      "termsRequired": "You must accept the privacy policy"
+    }
+  },
+  "Experience": {
+    "title": "My Journey",
+    "freelance_cat": "Freelance",
+    "freelance_title": "Web Developer & Scripting",
+    "freelance_date": "Projects",
+    "freelance_desc": "Development of web platforms and Python automations for various clients. Highlights include the complete creation and deployment of the corporate website for JCP Construcciones (jcpconstrucciones.com).",
+    "volunteering_cat": "Volunteering",
+    "vol_1_title": "Co-founder & Lead Dev | Movember Alcoy-Valencia",
+    "vol_1_date": "2019 - Present",
+    "vol_1_desc": "Co-founder of the initiative. Currently leading the development of its official web platform to raise awareness of the movement and manage fundraising.",
+    "vol_2_title": "Stage Manager & Collaborator | Novaterra Foundation",
+    "vol_2_date": "Eventual",
+    "vol_2_desc": "Stage manager for the macro-event 'Llums solidaries per novaterra' (+500 attendees). Developed a custom application to manage the rundown and control the show optimally in real-time.",
+    "vol_3_title": "Youth Educator & Developer",
+    "vol_3_date": "2023 - Present",
+    "vol_3_desc": "Volunteer educator. Created custom software tools for internal group management and developed interactive companion apps for games and activities.",
+    "challenges_cat": "Challenges & Projects",
+    "chal_1_title": "Competitive Hackathons",
+    "chal_1_date": "2026 / Various",
+    "chal_1_desc": "Participated in Shipaton 2026, TechForEquality and DreamBigUPV, designing and programming prototypes (MVPs) collaborating with other developers under time pressure.",
+    "chal_2_title": "Hydraflow App & University Development",
+    "chal_2_date": "Continuous",
+    "chal_2_desc": "Independent development of Hydraflow (Full Stack mobile App for water consumption tracking) and constant participation in group software projects at university.",
+    "chal_3_title": "Algorithmics (AdventOfCode)",
+    "chal_3_date": "Annual",
+    "chal_3_desc": "Tackling complex logic and data structure challenges by participating in the Advent Of Code programming challenges."
+  },
+  "UI": {
+    "skip_intro": "Skip Intro",
+    "project_img": "PROJECT_IMG",
+    "view_project": "View Project"
+  },
+  "Work": {
+    "title": "All Projects",
+    "subtitle": "A comprehensive list of my work.",
+    "back_home": "← Back to Home",
+    "coming_soon": "Coming Soon",
+    "categories": {
+      "all": "All",
+      "web": "Web",
+      "mobile": "Mobile",
+      "others": "Others"
+    }
+  },
+  "AvisoLegal": {
+    "back": "← Back",
+    "title": "Legal Notice",
+    "section_1_title": "1. Identifying Data",
+    "section_1_text": "In compliance with the duty of information contained in Article 10 of Law 34/2002, of July 11, on Services of the Information Society and Electronic Commerce, the following data is reflected below: the web domain owner is {name} (hereinafter, The Owner), with contact email: {email}.",
+    "section_2_title": "2. Users",
+    "section_2_text": "Access and/or use of this portal attributes the condition of USER, who accepts, from said access and/or use, the General Conditions of Use reflected here.",
+    "section_3_title": "3. Use of the Portal",
+    "section_3_text": "This website provides access to a multitude of information, services, programs or data (hereinafter, \"the contents\") on the Internet belonging to The Owner or its licensors to which the USER may have access. The USER assumes responsibility for the use of the portal.",
+    "section_4_title": "4. Intellectual and Industrial Property",
+    "section_4_text": "The Owner by itself or as an assignee, is the owner of all intellectual and industrial property rights of its website, as well as the elements contained therein (by way of example, images, sound, audio, video, software or texts; trademarks or logos, color combinations, structure and design, etc.). All rights reserved.",
+    "section_5_title": "5. Modifications",
+    "section_5_text": "The Owner reserves the right to carry out without prior notice the modifications it considers appropriate in its portal, being able to change, delete or add both the contents and services provided through it and the way in which they are presented or located in its portal."
+  },
+  "PoliticaPrivacidad": {
+    "back": "← Back",
+    "title": "Privacy Policy",
+    "section_1_title": "1. User Information",
+    "section_1_text": "{name}, as Data Controller, informs you that, in accordance with the provisions of Regulation (EU) 2016/679, of April 27 (GDPR) and L.O. 3/2018, of December 5, on data protection and guarantee of digital rights (LOPDGDD), we will process your data as reflected in this Privacy Policy.",
+    "section_2_title": "2. Purpose of the Treatment",
+    "section_2_text": "Your personal data (such as your email in case of contact) will be used solely and exclusively to respond to your queries, send you information related to the services offered, and maintain professional communication.",
+    "section_3_title": "3. Data Conservation",
+    "section_3_text": "The data will be kept for the time strictly necessary to fulfill the purpose for which it was collected and to determine the possible responsibilities that could derive from said purpose.",
+    "section_4_title": "4. Data Communication",
+    "section_4_text": "Personal data will not be communicated to third parties, unless legally obliged or with the explicit prior consent of the user.",
+    "section_5_title": "5. User Rights",
+    "section_5_text": "You have the right to access, rectify and delete the data, as well as other rights, by contacting {email}."
+  },
+  "PoliticaCookies": {
+    "back": "← Back",
+    "title": "Cookies Policy",
+    "section_1_title": "1. What are cookies?",
+    "section_1_text": "A cookie is a file that is downloaded to your computer when you access certain web pages. Cookies allow a web page, among other things, to store and retrieve information about the browsing habits of a user or their equipment and, depending on the information they contain and the way they use their equipment, they can be used to recognize the user.",
+    "section_2_title": "2. What types of cookies does this website use?",
+    "section_2_text": "This website is built mainly with modern technologies that minimize the use of cookies. We mainly use:",
+    "section_2_li_1": "<strong>Technical cookies:</strong> These are those that allow the user to navigate through a web page, platform or application and the use of the different options or services that exist in it.",
+    "section_2_li_2": "<strong>Analysis cookies:</strong> These are those that, well treated by us or by third parties, allow us to quantify the number of users and thus perform the measurement and statistical analysis of the use made by users of the service offered.",
+    "section_3_title": "3. Revocation and deletion of cookies",
+    "section_3_text": "You can allow, block or delete the cookies installed on your computer by configuring the browser options installed on your computer. Check your browser's instructions and manuals for more information."
+  },
+  "ProjectsList": {
+    "quorum": {
+      "title": "quorum",
+      "description": "Mobile application designed to modernize community governance and facilitate asynchronous decision-making. Built with React Native and Supabase, it integrates a complete voting system, real-time user management, and monetization via RevenueCat, delivering a seamless and scalable experience. Project developed as a participation entry for the Shipathon 2026."
+    },
+    "inazuma-endavant": {
+      "title": "Inazuma Endavant",
+      "description": "Comprehensive ecosystem that gamifies and manages activities across multiple platforms. It features a monorepo housing a robust backend and two PWA frontends, a dedicated mobile app for offline NFC card reading for physical interactions, Python scripts for data processing, and a technical documentation website that covers the entire architecture."
+    },
+    "hydraflow": {
+      "title": "Hydraflow",
+      "description": "Full-stack mobile application focused on tracking and monitoring daily water consumption. Designed with a robust backend architecture using Nest.js and PostgreSQL, combined with an agile React Native frontend, ensuring optimal performance and efficient user data management. Currently in beta phase."
+    },
+    "jesucristo-superstar": {
+      "title": "Jesucristo Superstar",
+      "description": "Interactive web application designed to present the scenes, songs, and biblical readings of the 2026 \"Hilo Conductor\" campaign for the Juniors M.D. Endavant center."
+    },
+    "schoolyard-wheel": {
+      "title": "Schoolyard Wheel",
+      "description": "Automated Python script for the dynamic and equitable assignment of schoolyard zones. It generates optimized monthly layouts, facilitating the efficient organization of the academic year and saving hours of manual planning."
+    },
+    "sociograma-ia": {
+      "title": "WeavyAI",
+      "description": "System designed as a monorepo that facilitates the creation, management and analysis of sociograms, allowing the evaluation of social dynamics within a group through forms and graph visualizations. Project developed for the TechForEquality 2026 hackathon by ACM UPV."
+    },
+    "sorteo-medieval": {
+      "title": "Medieval Raffle",
+      "description": "Website for the raffle of the II Solidarity Medieval Dinner for the benefit of the Novaterra association."
+    }
+  },
+  "WorkSlug": {
+    "back": "← Back to Projects",
+    "overview": "Overview",
+    "tech_stack": "Tech Stack",
+    "links": "Links",
+    "view_source": "View Source",
+    "view_website": "Visit Website",
+    "next_project": "Next Project",
+    "view_all": "View All Work →"
+  },
+  "Metadata": {
+    "title": "JBDEV23 | Full Stack Software Engineer",
+    "description": "Brutalist web developer portfolio. Specialist in React, Next.js and modern design."
+  }
+}

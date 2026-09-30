@@ -1,0 +1,244 @@
+{
+  "Index": {
+    "title": "JBDEV23 | Portfolio"
+  },
+  "Header": {
+    "nav_work": "Trabajo",
+    "nav_skills": "Habilidades",
+    "nav_about": "Sobre mí",
+    "nav_contact": "Contacto"
+  },
+  "Footer": {
+    "software_engineer": "Ingeniero de Software",
+    "email": "Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "legal_notice": "Aviso Legal",
+    "privacy_policy": "Política de Privacidad",
+    "cookies_policy": "Política de Cookies",
+    "built_with": "Construido con",
+    "and_brutalism": "y brutalismo"
+  },
+  "Hero": {
+    "marquee_items": [
+      "DISPONIBLE PARA FREELANCE",
+      "FRONTEND",
+      "BACKEND",
+      "UI/UX"
+    ],
+    "subtitle": "Desarrollador FullStack creando experiencias digitales sin disculpas. <br></br> <primary>Sin rodeos, solo rendimiento puro.</primary>",
+    "btn_projects": "Ver Proyectos",
+    "btn_contact": "Contactar"
+  },
+  "About": {
+    "title": "Sobre mí",
+    "description": "Nacido en Alcoy. Mi pasión por el código empezó de niño con el mítico <scratch>Scratch</scratch>. Hoy construyo soluciones reales línea a línea.",
+    "photo_placeholder": "[ PON TU <br></br> FOTO AQUÍ ]",
+    "availability_title": "Disponibilidad",
+    "availability_status": "Open to <freelance>Freelance</freelance>",
+    "btn_contact": "Hablemos",
+    "languages_title": "Idiomas",
+    "lang_es": "Castellano",
+    "lang_es_lvl": "Nativo",
+    "lang_va": "Valenciano",
+    "lang_va_lvl": "Nativo (C1 Oficial)",
+    "lang_en": "Inglés",
+    "lang_en_lvl": "B2 Oficial (~C1)",
+    "lang_fr": "Francés",
+    "lang_fr_lvl": "A2 Homologado",
+    "cv_title": "Curriculum Vitae",
+    "cv_download": "Descargar PDF",
+    "status_title": "Status",
+    "status_subtitle": "Buscando Prácticas",
+    "status_desc": "Abierto a oportunidades para aplicar mis conocimientos, seguir aprendiendo y aportar valor en un entorno profesional. ¡Listo para nuevos retos!",
+    "edu_title": "Trayectoria & Educación",
+    "edu_desc": "Estudié en <alcoy>Alcoy</alcoy> hasta finalizar Bachiller. Actualmente curso 4º año de <engineering>Ingeniería Informática</engineering> en la <upv>UPV</upv> (València), especializándome en la rama de <software>Ingeniería del Software</software>.",
+    "maker_title": "Maker / Tinkering",
+    "maker_1": "Tengo una <bold>impresora 3D</bold> con la que realizo proyectos propios. Utilizo <bold>Blender</bold> para el modelado y diseño de piezas.",
+    "maker_2": "Actualmente estoy montando y configurando mi propio <bold>servidor NAS</bold>.",
+    "skills_title": "Soft Skills",
+    "skills_list": [
+      "Comunicación",
+      "Escucha activa & Empatía",
+      "Trabajo en equipo",
+      "Gestión de grupos",
+      "Resolución de conflictos",
+      "Pensamiento crítico",
+      "Adaptabilidad",
+      "Autoaprendizaje"
+    ],
+    "hobbies_title": "Más Allá Del Teclado",
+    "hobbies_1": "Deportista activo: Toda la vida haciendo <bold>Judo</bold> (Cinturón Marrón). También entreno running y gimnasio.",
+    "hobbies_2": "Muy vinculado a las tradiciones de mi ciudad, participando activamente en los <bold>Moros y Cristianos de Alcoy</bold>.",
+    "hobbies_3": "Comprometido con el <bold>voluntariado</bold> y la educación juvenil en mi tiempo libre."
+  },
+  "Projects": {
+    "title": "Proyectos Destacados",
+    "view_all": "Ver Todos los Proyectos &rarr;",
+    "services_title": "Lo que hago",
+    "web_title": "Web",
+    "web_desc": "Next.js, Nest.js, TypeScript, Tailwind",
+    "mobile_title": "Mobile",
+    "mobile_desc": "React Native, Expo, TypeScript",
+    "others_title": "Otros",
+    "others_desc": "Python, Java, APIs, Scripts, UI/UX"
+  },
+  "Skills": {
+    "title": "Mi Arsenal",
+    "status_idle": "INACTIVO"
+  },
+  "Contact": {
+    "badge": "Abierto a freelance y prácticas en empresa",
+    "title": "¿Trabajamos Juntos?",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Juan Pérez",
+      "email": "Email",
+      "emailPlaceholder": "juan@ejemplo.com",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntame sobre tu proyecto...",
+      "submit": "ENVIAR MENSAJE",
+      "submitting": "ENVIANDO...",
+      "success": "¡Mensaje enviado con éxito! Te responderé pronto.",
+      "error": "Error al enviar el mensaje. Por favor, inténtalo de nuevo.",
+      "termsLabel": "He leído y acepto la ",
+      "termsLink": "política de privacidad"
+    },
+    "errors": {
+      "nameRequired": "El nombre es obligatorio",
+      "emailRequired": "El correo es obligatorio",
+      "emailInvalid": "Dirección de correo inválida",
+      "messageRequired": "El mensaje es obligatorio",
+      "messageTooShort": "El mensaje debe tener al menos 10 caracteres",
+      "termsRequired": "Debes aceptar la política de privacidad"
+    }
+  },
+  "Experience": {
+    "title": "Mi Trayectoria",
+    "freelance_cat": "Freelance",
+    "freelance_title": "Desarrollador Web & Scripting",
+    "freelance_date": "Proyectos",
+    "freelance_desc": "Desarrollo de plataformas web y automatizaciones en Python para diversos clientes. Destaca la creación y despliegue íntegro de la web corporativa para JCP Construcciones (jcpconstrucciones.com).",
+    "volunteering_cat": "Voluntariado",
+    "vol_1_title": "Cofundador & Lead Dev | Movember Alcoy-Valencia",
+    "vol_1_date": "2019 - Presente",
+    "vol_1_desc": "Cofundador de la iniciativa. Actualmente liderando el desarrollo de su plataforma web oficial para visibilizar el movimiento y gestionar la recaudación.",
+    "vol_2_title": "Regidor & Colaborador | Fundación Novaterra",
+    "vol_2_date": "Eventual",
+    "vol_2_desc": "Regidor del macro-evento 'Llums solidaries per novaterra' (+500 asistentes). Desarrollé una aplicación propia para llevar la escaleta y control del espectáculo de forma óptima en tiempo real.",
+    "vol_3_title": "Educador Juvenil & Desarrollador",
+    "vol_3_date": "2023 - Presente",
+    "vol_3_desc": "Educador voluntario. Creación de herramientas de software a medida para la gestión interna del grupo y desarrollo de apps interactivas de apoyo para juegos y actividades.",
+    "challenges_cat": "Retos & Proyectos",
+    "chal_1_title": "Hackathones Competitivas",
+    "chal_1_date": "2026 / Varios",
+    "chal_1_desc": "Participación en Shipaton 2026, TechForEquality y DreamBigUPV, diseñando y programando prototipos (MVPs) colaborando con otros desarrolladores bajo presión de tiempo.",
+    "chal_2_title": "App Hydraflow & Desarrollo Universitario",
+    "chal_2_date": "Continuo",
+    "chal_2_desc": "Desarrollo independiente de Hydraflow (App mobile Full Stack para el registro de consumo de agua) y participación constante en proyectos software grupales en la universidad.",
+    "chal_3_title": "Algoritmia (AdventOfCode)",
+    "chal_3_date": "Anual",
+    "chal_3_desc": "Enfrentamiento a retos complejos de lógica y estructuras de datos participando en los desafíos de programación de Advent Of Code."
+  },
+  "UI": {
+    "skip_intro": "Saltar Intro",
+    "project_img": "IMG_PROYECTO",
+    "view_project": "Ver Proyecto"
+  },
+  "Work": {
+    "title": "Todos los Proyectos",
+    "subtitle": "Una lista completa de mi trabajo.",
+    "back_home": "← Volver al Inicio",
+    "coming_soon": "Próximamente",
+    "categories": {
+      "all": "Todos",
+      "web": "Web",
+      "mobile": "Móvil",
+      "others": "Otros"
+    }
+  },
+  "AvisoLegal": {
+    "back": "← Volver",
+    "title": "Aviso Legal",
+    "section_1_title": "1. Datos Identificativos",
+    "section_1_text": "En cumplimiento con el deber de información recogido en artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico, a continuación se reflejan los siguientes datos: el titular de dominio web es {name} (en adelante, El Titular), con correo electrónico de contacto: {email}.",
+    "section_2_title": "2. Usuarios",
+    "section_2_text": "El acceso y/o uso de este portal atribuye la condición de USUARIO, que acepta, desde dicho acceso y/o uso, las Condiciones Generales de Uso aquí reflejadas.",
+    "section_3_title": "3. Uso del Portal",
+    "section_3_text": "Este sitio web proporciona el acceso a multitud de informaciones, servicios, programas o datos (en adelante, \"los contenidos\") en Internet pertenecientes a El Titular o a sus licenciantes a los que el USUARIO pueda tener acceso. El USUARIO asume la responsabilidad del uso del portal.",
+    "section_4_title": "4. Propiedad Intelectual e Industrial",
+    "section_4_text": "El Titular por sí o como cesionaria, es titular de todos los derechos de propiedad intelectual e industrial de su página web, así como de los elementos contenidos en la misma (a título enunciativo, imágenes, sonido, audio, vídeo, software o textos; marcas o logotipos, combinaciones de colores, estructura y diseño, etc.). Todos los derechos reservados.",
+    "section_5_title": "5. Modificaciones",
+    "section_5_text": "El Titular se reserva el derecho de efectuar sin previo aviso las modificaciones que considere oportunas en su portal, pudiendo cambiar, suprimir o añadir tanto los contenidos y servicios que se presten a través de la misma como la forma en la que éstos aparezcan presentados o localizados en su portal."
+  },
+  "PoliticaPrivacidad": {
+    "back": "← Volver",
+    "title": "Política de Privacidad",
+    "section_1_title": "1. Información al Usuario",
+    "section_1_text": "{name}, como Responsable del Tratamiento, le informa que, según lo dispuesto en el Reglamento (UE) 2016/679, de 27 de abril (RGPD) y en la L.O. 3/2018, de 5 de diciembre, de protección de datos y garantía de los derechos digitales (LOPDGDD), trataremos sus datos tal y como reflejamos en la presente Política de Privacidad.",
+    "section_2_title": "2. Finalidad del Tratamiento",
+    "section_2_text": "Sus datos personales (como su correo electrónico en caso de contacto) serán utilizados única y exclusivamente para responder a sus consultas, enviarle información relacionada con los servicios ofrecidos, y mantener una comunicación profesional.",
+    "section_3_title": "3. Conservación de los Datos",
+    "section_3_text": "Los datos se conservarán durante el tiempo estrictamente necesario para cumplir con la finalidad para la que se recabaron y para determinar las posibles responsabilidades que se pudieran derivar de dicha finalidad.",
+    "section_4_title": "4. Comunicación de Datos",
+    "section_4_text": "No se comunicarán datos personales a terceros, salvo obligación legal o previo consentimiento explícito por parte del usuario.",
+    "section_5_title": "5. Derechos del Usuario",
+    "section_5_text": "Tiene derecho a acceder, rectificar y suprimir los datos, así como otros derechos, dirigiéndose a {email}."
+  },
+  "PoliticaCookies": {
+    "back": "← Volver",
+    "title": "Política de Cookies",
+    "section_1_title": "1. ¿Qué son las cookies?",
+    "section_1_text": "Una cookie es un fichero que se descarga en su ordenador al acceder a determinadas páginas web. Las cookies permiten a una página web, entre otras cosas, almacenar y recuperar información sobre los hábitos de navegación de un usuario o de su equipo y, dependiendo de la información que contengan y de la forma en que utilice su equipo, pueden utilizarse para reconocer al usuario.",
+    "section_2_title": "2. ¿Qué tipos de cookies utiliza esta web?",
+    "section_2_text": "Este sitio web está construido principalmente con tecnologías modernas que minimizan el uso de cookies. Principalmente utilizamos:",
+    "section_2_li_1": "<strong>Cookies técnicas:</strong> Son aquellas que permiten al usuario la navegación a través de una página web, plataforma o aplicación y la utilización de las diferentes opciones o servicios que en ella existan.",
+    "section_2_li_2": "<strong>Cookies de análisis:</strong> Son aquéllas que bien tratadas por nosotros o por terceros, nos permiten cuantificar el número de usuarios y así realizar la medición y análisis estadístico de la utilización que hacen los usuarios del servicio ofertado.",
+    "section_3_title": "3. Revocación y eliminación de cookies",
+    "section_3_text": "Puede usted permitir, bloquear o eliminar las cookies instaladas en su equipo mediante la configuración de las opciones del navegador instalado en su ordenador. Consulte las instrucciones y manuales de su navegador para ampliar esta información."
+  },
+  "ProjectsList": {
+    "quorum": {
+      "title": "quorum",
+      "description": "Aplicación móvil diseñada para modernizar la gobernanza comunitaria y facilitar la toma de decisiones asíncrona. Construida con React Native y Supabase, integra un sistema completo de votaciones, gestión de usuarios en tiempo real y monetización a través de RevenueCat, ofreciendo una experiencia fluida y escalable. Proyecto desarrollado como participación para la Shipathon 2026."
+    },
+    "inazuma-endavant": {
+      "title": "Inazuma Endavant",
+      "description": "Ecosistema integral que gamifica y gestiona actividades mediante múltiples plataformas. Está compuesto por un monorepo con un robusto backend y dos PWA (frontend), una aplicación móvil dedicada a la lectura offline de tarjetas NFC para interacciones físicas, scripts en Python para el procesamiento de datos, y una web de documentación técnica que engloba toda la arquitectura."
+    },
+    "hydraflow": {
+      "title": "Hydraflow",
+      "description": "Aplicación móvil full-stack orientada al registro y seguimiento del consumo diario de agua. Diseñada con una arquitectura backend robusta en Nest.js y PostgreSQL, combinada con un frontend ágil en React Native, garantizando un rendimiento óptimo y una gestión eficiente de los datos del usuario. Actualmente en fase beta."
+    },
+    "jesucristo-superstar": {
+      "title": "Jesucristo Superstar",
+      "description": "Aplicación web interactiva diseñada para presentar las escenas, canciones y lecturas bíblicas del \"Hilo Conductor\" de la campaña 2026 del centro Juniors M.D. Endavant."
+    },
+    "schoolyard-wheel": {
+      "title": "Schoolyard Wheel",
+      "description": "Script automatizado en Python para la asignación dinámica y equitativa de zonas de patio en centros escolares. Genera disposiciones mensuales optimizadas, facilitando la organización del curso lectivo de manera eficiente y ahorrando horas de planificación manual."
+    },
+    "sociograma-ia": {
+      "title": "WeavyAI",
+      "description": "El sistema está diseñado como un monorepo que facilita la creación, gestión y análisis de sociogramas, permitiendo evaluar las dinámicas sociales dentro de un grupo a través de formularios y visualizaciones de grafos. Proyecto desarrollado en el hackathon TechForEquality 2026, organizado por ACM UPV, para el reto de NTT Data."
+    },
+    "sorteo-medieval": {
+      "title": "Sorteo Medieval",
+      "description": "Página web para el sorteo de la rifa de la II Cena Medieval Solidaria en beneficio de la asociación Novaterra."
+    }
+  },
+  "WorkSlug": {
+    "back": "← Volver a Proyectos",
+    "overview": "Resumen",
+    "tech_stack": "Tecnologías",
+    "links": "Enlaces",
+    "view_source": "Ver Código Fuente",
+    "view_website": "Visitar Web",
+    "next_project": "Siguiente Proyecto",
+    "view_all": "Ver Todos los Proyectos →"
+  },
+  "Metadata": {
+    "title": "JBDEV23 | Full Stack Software Engineer",
+    "description": "Portafolio de desarrollador web brutalista. Especialista en React, Next.js y diseño moderno."
+  }
+}

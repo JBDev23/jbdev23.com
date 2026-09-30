@@ -39,3 +39,22 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# --- Configuración personalizada ---
+
+# Archivos Markdown inútiles (manteniendo el README)
+*.md
+!README.md
+
+# Scripts locales o sueltos
+audit-ui.js
+scripts/
+*.py
+*.sh
+
+# Imágenes raras, carpetas de auditoría y videos
+audit-videos/
+*.gif
+*.mp4
+*.webm
+*.mkv
