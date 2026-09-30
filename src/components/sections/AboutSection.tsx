@@ -4,6 +4,7 @@ import { useRef } from 'react';
 import { m, useScroll, useTransform, useSpring } from "framer-motion";
 import { useTranslations } from 'next-intl';
 import { usePerformanceTier } from '@/hooks/usePerformanceTier';
+import Image from 'next/image';
 
 const aboutText = Array(20).fill("ABOUT ME").join(" • ") + " • ";
 const alcoyText = Array(20).fill("ALCOY UPV").join(" • ") + " • ";
@@ -115,13 +116,14 @@ export default function AboutSection() {
             >
 
               <div className="w-48 h-48 sm:w-56 sm:h-56 bg-background border-4 border-background shadow-[10px_10px_0px_0px_var(--primary)] rotate-[-3deg] hover:rotate-[2deg] hover:scale-105 transition-transform duration-300 relative overflow-hidden flex-shrink-0 flex items-center justify-center">
-                <span className="font-mono text-foreground font-black text-center opacity-40 leading-tight">
-                  {t.rich('photo_placeholder', {
-                    br: () => <br />
-                  })}
-                </span>
-
-
+                <Image
+                  src="/images/profile.jpeg"
+                  alt="Profile Picture"
+                  fill
+                  className="object-cover grayscale hover:grayscale-0 transition-all duration-300"
+                  sizes="(max-width: 640px) 192px, 224px"
+                  priority
+                />
               </div>
 
               <div className="flex flex-col gap-4 w-full">
