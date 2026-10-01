@@ -40,6 +40,7 @@ export async function POST(request: Request) {
     const { data, error } = await resend.emails.send({
       from: `JBDEV23 Contact <${fromEmail}>`,
       to: process.env.CONTACT_EMAIL || 'jordibarrachinam@gmail.com',
+      replyTo: email,
       subject: `New Contact Form Message from ${name}`,
       text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
     });
