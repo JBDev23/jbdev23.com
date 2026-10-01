@@ -46,6 +46,24 @@ export default function Hero() {
   const handleMouseEnter = () => size.set(300);
   const handleMouseLeave = () => size.set(0);
 
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
+    // Only intercept if we are already on the home page. The links here are all for the home page.
+    e.preventDefault();
+    const target = document.getElementById(targetId);
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth" });
+      window.history.pushState(null, "", `#${targetId}`);
+      
+      // Retry scroll after a short delay in case dynamic content loading shifts the layout
+      setTimeout(() => {
+        const el = document.getElementById(targetId);
+        if (el) {
+          el.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 500);
+    }
+  };
+
   const octoMaskUrl = `url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='30,0 70,0 100,30 100,70 70,100 30,100 0,70 0,30' fill='black'/%3E%3C/svg%3E")`;
   const maskSizeTemplate = useMotionTemplate`${smoothSize}px ${smoothSize}px`;
   const maskPositionTemplate = useMotionTemplate`calc(${smoothX}px - (${smoothSize}px / 2)) calc(${smoothY}px - (${smoothSize}px / 2))`;
@@ -204,10 +222,10 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="flex flex-col sm:flex-row flex-wrap justify-center gap-4 w-full px-4 sm:px-0"
           >
-            <Link href={{ pathname: '/', hash: 'work' }} className="font-bold uppercase bg-primary text-white px-8 py-3 sm:py-4 brutalist-border brutalist-shadow hover:bg-white hover:text-black transition-colors text-center w-full sm:w-auto">
+            <Link href={{ pathname: '/', hash: 'work' }} onClick={(e) => handleScroll(e, 'work')} className="font-bold uppercase bg-primary text-white px-8 py-3 sm:py-4 brutalist-border brutalist-shadow hover:bg-white hover:text-black transition-colors text-center w-full sm:w-auto">
               {t('btn_projects')}
             </Link>
-            <Link href={{ pathname: '/', hash: 'contact' }} className="font-bold uppercase bg-white text-black px-8 py-3 sm:py-4 brutalist-border brutalist-shadow hover:bg-primary hover:text-white transition-colors text-center w-full sm:w-auto">
+            <Link href={{ pathname: '/', hash: 'contact' }} onClick={(e) => handleScroll(e, 'contact')} className="font-bold uppercase bg-white text-black px-8 py-3 sm:py-4 brutalist-border brutalist-shadow hover:bg-primary hover:text-white transition-colors text-center w-full sm:w-auto">
               {t('btn_contact')}
             </Link>
           </m.div>

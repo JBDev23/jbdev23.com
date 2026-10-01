@@ -32,11 +32,28 @@ export default function Header3() {
         setIsMenuOpen(false);
     };
 
+    const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
+        setIsMenuOpen(false);
+        const target = document.getElementById(targetId);
+        if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: "smooth" });
+            window.history.pushState(null, "", `#${targetId}`);
+            
+            setTimeout(() => {
+                const el = document.getElementById(targetId);
+                if (el) {
+                    el.scrollIntoView({ behavior: "smooth" });
+                }
+            }, 500);
+        }
+    };
+
     const navLinks = [
-        { name: t("nav_work"), href: { pathname: '/', hash: 'work' }, bgClass: "bg-accent text-black" },
-        { name: t("nav_skills"), href: { pathname: '/', hash: 'skills' }, bgClass: "bg-white text-black" },
-        { name: t("nav_about"), href: { pathname: '/', hash: 'about' }, bgClass: "bg-white text-black" },
-        { name: t("nav_contact"), href: { pathname: '/', hash: 'contact' }, bgClass: "bg-primary text-white" },
+        { name: t("nav_work"), href: { pathname: '/', hash: 'work' }, id: 'work', bgClass: "bg-accent text-black" },
+        { name: t("nav_skills"), href: { pathname: '/', hash: 'skills' }, id: 'skills', bgClass: "bg-white text-black" },
+        { name: t("nav_about"), href: { pathname: '/', hash: 'about' }, id: 'about', bgClass: "bg-white text-black" },
+        { name: t("nav_contact"), href: { pathname: '/', hash: 'contact' }, id: 'contact', bgClass: "bg-primary text-white" },
     ];
 
     return (
@@ -68,6 +85,7 @@ export default function Header3() {
                         <Link
                             key={link.name}
                             href={link.href as React.ComponentProps<typeof Link>['href']}
+                            onClick={(e) => handleScroll(e, link.id)}
                             className={`font-bold uppercase px-4 py-2 text-sm md:text-base brutalist-border brutalist-shadow-dark hover:translate-y-1 hover:translate-x-1 hover:shadow-none transition-all ${link.bgClass}`}
                         >
                             {link.name}
@@ -88,7 +106,7 @@ export default function Header3() {
                             <Link
                                 key={link.name}
                                 href={link.href as React.ComponentProps<typeof Link>['href']}
-                                onClick={closeMenu}
+                                onClick={(e) => handleScroll(e, link.id)}
                                 className={`font-bold uppercase px-4 py-4 text-center text-lg brutalist-border ${link.bgClass}`}
                             >
                                 {link.name}
