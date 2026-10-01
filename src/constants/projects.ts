@@ -55,6 +55,17 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/JBDev23/hydraflow"
   },
   {
+    slug: "portfolio",
+    title: "Portfolio Personal",
+    technologies: ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"],
+    description: "Mi portafolio personal, diseñado y desarrollado para mostrar mis proyectos, habilidades y experiencia profesional. Construido con Next.js y animaciones fluidas con Framer Motion, priorizando el rendimiento y una experiencia de usuario moderna.",
+    image: "/images/portfolio.webp",
+    variant: "primary",
+    category: ["web"],
+    githubUrl: "https://github.com/JBDev23/jbdev23.com",
+    liveUrl: "https://www.jbdev23.com"
+  },
+  {
     slug: "sociograma-ia",
     title: "WeavyAI",
     technologies: ["Next.js", "TypeScript", "TailwindCSS", "Prisma", "PostgreSQL", "Nest.js", "Groq LLM"],

@@ -198,6 +198,10 @@
     "section_3_text": "You can allow, block or delete the cookies installed on your computer by configuring the browser options installed on your computer. Check your browser's instructions and manuals for more information."
   },
   "ProjectsList": {
+    "portfolio": {
+      "title": "Personal Portfolio",
+      "description": "My personal portfolio, designed and developed to showcase my projects, skills, and professional experience. Built with Next.js and fluid animations using Framer Motion, prioritizing performance and a modern user experience."
+    },
     "quorum": {
       "title": "quorum",
       "description": "Mobile application designed to modernize community governance and facilitate asynchronous decision-making. Built with React Native and Supabase, it integrates a complete voting system, real-time user management, and monetization via RevenueCat, delivering a seamless and scalable experience. Project developed as a participation entry for the Shipathon 2026."

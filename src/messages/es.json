@@ -198,6 +198,10 @@
     "section_3_text": "Puede usted permitir, bloquear o eliminar las cookies instaladas en su equipo mediante la configuración de las opciones del navegador instalado en su ordenador. Consulte las instrucciones y manuales de su navegador para ampliar esta información."
   },
   "ProjectsList": {
+    "portfolio": {
+      "title": "Portfolio Personal",
+      "description": "Mi portafolio personal, diseñado y desarrollado para mostrar mis proyectos, habilidades y experiencia profesional. Construido con Next.js y animaciones fluidas con Framer Motion, priorizando el rendimiento y una experiencia de usuario moderna."
+    },
     "quorum": {
       "title": "quorum",
       "description": "Aplicación móvil diseñada para modernizar la gobernanza comunitaria y facilitar la toma de decisiones asíncrona. Construida con React Native y Supabase, integra un sistema completo de votaciones, gestión de usuarios en tiempo real y monetización a través de RevenueCat, ofreciendo una experiencia fluida y escalable. Proyecto desarrollado como participación para la Shipathon 2026."
