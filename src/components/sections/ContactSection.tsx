@@ -52,7 +52,7 @@ export default function ContactSection() {
         const errorData = await response.json().catch(() => ({}));
         throw new Error(errorData.error || 'Network response was not ok');
       }
-      
+
       toast.success(t('form.success'));
       reset();
     } catch (error) {
@@ -112,7 +112,7 @@ export default function ContactSection() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="flex items-center gap-4 bg-foreground text-background px-6 py-3 border-4 border-foreground shadow-[8px_8px_0px_0px_var(--primary)] rotate-[-2deg] hover:rotate-[1deg] transition-transform duration-300"
+          className="flex items-center gap-4 bg-foreground text-background px-6 py-3 border-4 border-foreground shadow-[8px_8px_0px_0px_var(--accent)] rotate-[-2deg] hover:rotate-[1deg] transition-transform duration-300"
         >
           <div className="w-4 h-4 bg-green-500 rounded-full animate-pulse border-2 border-background" />
           <span className="font-mono font-black uppercase tracking-widest text-sm md:text-lg">
@@ -127,7 +127,7 @@ export default function ContactSection() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ type: "spring", stiffness: 120, damping: 20 }}
-            className="text-4xl md:text-6xl font-black uppercase mb-12 drop-shadow-[4px_4px_0_var(--accent)]"
+            className="text-4xl md:text-6xl font-black uppercase mb-12 drop-shadow-[4px_4px_0_var(--primary)]"
           >
             {t('title')}
           </m.h2>
@@ -139,10 +139,10 @@ export default function ContactSection() {
             href={`mailto:${siteConfig.email}`}
             className="group relative inline-block w-full max-w-6xl"
           >
-            <div className="absolute inset-0 bg-primary translate-x-2 translate-y-2 md:translate-x-4 md:translate-y-4 border-4 border-foreground transition-transform duration-300 group-hover:translate-x-4 group-hover:translate-y-4 md:group-hover:translate-x-6 md:group-hover:translate-y-6"></div>
+            <div className="absolute inset-0 bg-magenta translate-x-2 translate-y-2 md:translate-x-4 md:translate-y-4 border-4 border-foreground transition-transform duration-300 group-hover:translate-x-4 group-hover:translate-y-4 md:group-hover:translate-x-6 md:group-hover:translate-y-6"></div>
             <div className="relative w-full bg-background border-4 border-foreground text-foreground py-8 md:py-16 px-4 hover:-translate-y-2 transition-transform duration-300 flex items-center justify-center overflow-hidden">
               <span className="font-black text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl break-all px-4 z-10 relative">
-                {siteConfig.email.replace('@', '\n@')}
+                {siteConfig.email}
               </span>
 
               <div className="absolute -right-10 -bottom-10 text-9xl opacity-10 group-hover:rotate-45 group-hover:scale-150 transition-all duration-500">
@@ -163,17 +163,17 @@ export default function ContactSection() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="flex flex-col gap-2">
                 <label className="font-bold uppercase tracking-widest text-sm">{t('form.name')}</label>
-                <input 
+                <input
                   {...register('name')}
                   placeholder={t('form.namePlaceholder')}
                   className="bg-transparent border-4 border-foreground p-4 outline-none focus:bg-foreground/5 transition-colors placeholder:text-foreground/40 font-mono"
                 />
                 {errors.name && <span className="text-red-500 font-bold text-sm uppercase">{errors.name.message}</span>}
               </div>
-              
+
               <div className="flex flex-col gap-2">
                 <label className="font-bold uppercase tracking-widest text-sm">{t('form.email')}</label>
-                <input 
+                <input
                   {...register('email')}
                   placeholder={t('form.emailPlaceholder')}
                   className="bg-transparent border-4 border-foreground p-4 outline-none focus:bg-foreground/5 transition-colors placeholder:text-foreground/40 font-mono"
@@ -184,7 +184,7 @@ export default function ContactSection() {
 
             <div className="flex flex-col gap-2">
               <label className="font-bold uppercase tracking-widest text-sm">{t('form.message')}</label>
-              <textarea 
+              <textarea
                 {...register('message')}
                 placeholder={t('form.messagePlaceholder')}
                 rows={5}
@@ -207,7 +207,7 @@ export default function ContactSection() {
             </div>
             {errors.terms && <span className="text-red-500 font-bold text-sm uppercase">{errors.terms.message}</span>}
 
-            <button 
+            <button
               type="submit"
               disabled={isSubmitting}
               className="mt-4 bg-primary text-foreground border-4 border-foreground py-4 px-8 font-black uppercase text-xl md:text-2xl hover:translate-x-1 hover:-translate-y-1 hover:shadow-[4px_4px_0_var(--foreground)] transition-all active:translate-x-0 active:translate-y-0 active:shadow-none disabled:opacity-50 disabled:cursor-not-allowed group relative overflow-hidden"
@@ -229,17 +229,17 @@ export default function ContactSection() {
             href={siteConfig.links.linkedin}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-background text-foreground font-black uppercase text-2xl md:text-4xl px-8 py-10 border-4 border-foreground shadow-[10px_10px_0px_0px_var(--linkedin)] hover:shadow-[15px_15px_0px_0px_var(--linkedin)] hover:-translate-y-2 transition-all duration-300 flex justify-between items-center group"
+            className="bg-background text-foreground font-black uppercase text-2xl md:text-4xl px-8 py-10 border-4 border-foreground shadow-[10px_10px_0px_0px_var(--cyan)] hover:shadow-[15px_15px_0px_0px_var(--cyan)] hover:-translate-y-2 transition-all duration-300 flex justify-between items-center group"
           >
             <span>LinkedIn</span>
-            <span className="text-linkedin group-hover:rotate-45 transition-transform duration-300">↗</span>
+            <span className="text-white group-hover:rotate-45 transition-transform duration-300">↗</span>
           </a>
 
           <a
             href={siteConfig.links.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-background text-foreground font-black uppercase text-2xl md:text-4xl px-8 py-10 border-4 border-foreground shadow-[10px_10px_0px_0px_var(--github-bg)] hover:shadow-[15px_15px_0px_0px_var(--github-bg)] hover:-translate-y-2 transition-all duration-300 flex justify-between items-center group"
+            className="bg-background text-foreground font-black uppercase text-2xl md:text-4xl px-8 py-10 border-4 border-foreground shadow-[10px_10px_0px_0px_var(--cyan)] hover:shadow-[15px_15px_0px_0px_var(--github-bg)] hover:-translate-y-2 transition-all duration-300 flex justify-between items-center group"
           >
             <span>GitHub</span>
             <span className="group-hover:rotate-45 transition-transform duration-300">↗</span>

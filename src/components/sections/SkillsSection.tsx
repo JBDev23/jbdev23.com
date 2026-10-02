@@ -21,7 +21,7 @@ const SKILLS_DATA = [
   },
   {
     category: "Frontend",
-    bgClass: "bg-primary",
+    bgClass: "bg-primary text-black",
     skills: [
       { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" },
       { name: "Next.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" },
@@ -34,7 +34,7 @@ const SKILLS_DATA = [
   },
   {
     category: "Backend & AI",
-    bgClass: "bg-accent",
+    bgClass: "bg-accent text-black",
     skills: [
       { name: "Node.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" },
       { name: "Express", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" },

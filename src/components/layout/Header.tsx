@@ -39,7 +39,7 @@ export default function Header3() {
             e.preventDefault();
             target.scrollIntoView({ behavior: "smooth" });
             window.history.pushState(null, "", `#${targetId}`);
-            
+
             setTimeout(() => {
                 const el = document.getElementById(targetId);
                 if (el) {
@@ -50,10 +50,11 @@ export default function Header3() {
     };
 
     const navLinks = [
-        { name: t("nav_work"), href: { pathname: '/', hash: 'work' }, id: 'work', bgClass: "bg-accent text-black" },
-        { name: t("nav_skills"), href: { pathname: '/', hash: 'skills' }, id: 'skills', bgClass: "bg-white text-black" },
-        { name: t("nav_about"), href: { pathname: '/', hash: 'about' }, id: 'about', bgClass: "bg-white text-black" },
-        { name: t("nav_contact"), href: { pathname: '/', hash: 'contact' }, id: 'contact', bgClass: "bg-primary text-white" },
+        { name: t("nav_work"), href: { pathname: '/', hash: 'work' }, id: 'work' },
+        { name: t("nav_skills"), href: { pathname: '/', hash: 'skills' }, id: 'skills' },
+        { name: t("nav_experience"), href: { pathname: '/', hash: 'experience' }, id: 'experience' },
+        { name: t("nav_about"), href: { pathname: '/', hash: 'about' }, id: 'about' },
+        { name: t("nav_contact"), href: { pathname: '/', hash: 'contact' }, id: 'contact' },
     ];
 
     return (
@@ -70,15 +71,18 @@ export default function Header3() {
                     </h1>
                 </Link>
                 <button
-                    className="md:hidden p-2 border-4 border-black shadow-[8px_8px_0px_0px_var(--foreground)] bg-white text-black transition-all active:translate-x-1 active:translate-y-1 active:shadow-none"
+                    className="md:hidden group relative inline-block w-12 h-12"
                     onClick={toggleMenu}
                     aria-label="Toggle menu"
                 >
-                    {isMenuOpen ? (
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-                    ) : (
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="6" x2="20" y2="6"></line><line x1="4" y1="18" x2="20" y2="18"></line></svg>
-                    )}
+                    <div className="absolute inset-0 bg-primary translate-x-1.5 translate-y-1.5 border-2 border-foreground transition-transform duration-300 group-active:translate-x-0 group-active:translate-y-0"></div>
+                    <div className="relative bg-foreground text-background border-2 border-foreground w-full h-full flex items-center justify-center transition-transform duration-300 group-active:translate-x-1.5 group-active:translate-y-1.5">
+                        {isMenuOpen ? (
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                        ) : (
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="6" x2="20" y2="6"></line><line x1="4" y1="18" x2="20" y2="18"></line></svg>
+                        )}
+                    </div>
                 </button>
                 <div className="hidden md:flex gap-6 lg:gap-8 items-center pr-2">
                     {navLinks.map((link) => (
@@ -86,9 +90,12 @@ export default function Header3() {
                             key={link.name}
                             href={link.href as React.ComponentProps<typeof Link>['href']}
                             onClick={(e) => handleScroll(e, link.id)}
-                            className={`font-bold uppercase px-4 py-2 text-sm md:text-base brutalist-border brutalist-shadow-dark hover:translate-y-1 hover:translate-x-1 hover:shadow-none transition-all ${link.bgClass}`}
+                            className="group relative inline-block"
                         >
-                            {link.name}
+                            <div className="absolute inset-0 bg-primary translate-x-1.5 translate-y-1.5 border-2 border-foreground transition-transform duration-300 group-hover:translate-x-2.5 group-hover:translate-y-2.5"></div>
+                            <div className="relative bg-foreground text-background border-2 border-foreground px-4 py-2 font-bold uppercase text-sm md:text-base hover:-translate-y-1 transition-transform duration-300 flex items-center justify-center group-hover:bg-primary group-hover:text-background">
+                                {link.name}
+                            </div>
                         </Link>
                     ))}
                     <LanguageSwitcher />
@@ -107,9 +114,12 @@ export default function Header3() {
                                 key={link.name}
                                 href={link.href as React.ComponentProps<typeof Link>['href']}
                                 onClick={(e) => handleScroll(e, link.id)}
-                                className={`font-bold uppercase px-4 py-4 text-center text-lg brutalist-border ${link.bgClass}`}
+                                className="group relative inline-block mx-4"
                             >
-                                {link.name}
+                                <div className="absolute inset-0 bg-primary translate-x-1.5 translate-y-1.5 border-2 border-foreground transition-transform duration-300 group-hover:translate-x-2.5 group-hover:translate-y-2.5"></div>
+                                <div className="relative bg-foreground text-background border-2 border-foreground px-4 py-4 font-bold uppercase text-center text-lg hover:-translate-y-1 transition-transform duration-300 flex items-center justify-center group-hover:bg-primary group-hover:text-background">
+                                    {link.name}
+                                </div>
                             </Link>
                         ))}
                         <div className="flex justify-center mt-2">

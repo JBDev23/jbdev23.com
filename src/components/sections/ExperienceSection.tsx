@@ -7,37 +7,16 @@ import { usePerformanceTier } from '@/hooks/usePerformanceTier';
 
 export default function ExperienceSection() {
   const t = useTranslations('Experience');
-  
+
   const EXPERIENCE_DATA = [
     {
       category: t('freelance_cat'),
-      bgClass: "bg-magenta text-black",
+      bgClass: "bg-accent text-black",
       items: [
         {
           title: t('freelance_title'),
           date: t('freelance_date'),
           description: t('freelance_desc'),
-        }
-      ]
-    },
-    {
-      category: t('volunteering_cat'),
-      bgClass: "bg-primary text-black",
-      items: [
-        {
-          title: t('vol_1_title'),
-          date: t('vol_1_date'),
-          description: t('vol_1_desc'),
-        },
-        {
-          title: t('vol_2_title'),
-          date: t('vol_2_date'),
-          description: t('vol_2_desc'),
-        },
-        {
-          title: t('vol_3_title'),
-          date: t('vol_3_date'),
-          description: t('vol_3_desc'),
         }
       ]
     },
@@ -59,6 +38,27 @@ export default function ExperienceSection() {
           title: t('chal_3_title'),
           date: t('chal_3_date'),
           description: t('chal_3_desc'),
+        }
+      ]
+    },
+    {
+      category: t('volunteering_cat'),
+      bgClass: "bg-primary text-black",
+      items: [
+        {
+          title: t('vol_1_title'),
+          date: t('vol_1_date'),
+          description: t('vol_1_desc'),
+        },
+        {
+          title: t('vol_2_title'),
+          date: t('vol_2_date'),
+          description: t('vol_2_desc'),
+        },
+        {
+          title: t('vol_3_title'),
+          date: t('vol_3_date'),
+          description: t('vol_3_desc'),
         }
       ]
     }
@@ -147,7 +147,7 @@ export default function ExperienceSection() {
           transition={{ type: "spring", stiffness: 120, damping: 20 }}
           className="mb-20 md:mb-32 text-center md:text-left"
         >
-          <h2 className="text-5xl md:text-8xl font-black uppercase drop-shadow-[6px_6px_0_var(--accent)]">
+          <h2 className="text-5xl md:text-8xl font-black uppercase drop-shadow-[6px_6px_0_var(--primary)]">
             {t('title')}
           </h2>
         </m.div>

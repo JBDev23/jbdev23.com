@@ -127,9 +127,9 @@ export default function AboutSection() {
               </div>
 
               <div className="flex flex-col gap-4 w-full">
-                <a href="#" className="bg-background text-foreground font-black uppercase text-xl px-6 py-4 border-4 border-background shadow-[6px_6px_0px_0px_var(--accent)] hover:translate-x-2 transition-transform duration-300 flex justify-between items-center group">
+                <a href="#" className="bg-background text-foreground font-black uppercase text-xl px-6 py-4 border-4 border-background shadow-[6px_6px_0px_0px_var(--cyan)] hover:translate-x-2 transition-transform duration-300 flex justify-between items-center group">
                   <span>LinkedIn</span>
-                  <span className="text-accent group-hover:rotate-45 transition-transform duration-300">↗</span>
+                  <span className="text-cyan group-hover:rotate-45 transition-transform duration-300">↗</span>
                 </a>
                 <a href="#" className="bg-background text-foreground font-black uppercase text-xl px-6 py-4 border-4 border-background shadow-[6px_6px_0px_0px_var(--cyan)] hover:translate-x-2 transition-transform duration-300 flex justify-between items-center group">
                   <span>GitHub</span>
@@ -160,7 +160,7 @@ export default function AboutSection() {
                   </h3>
                 </div>
 
-                <div className="bg-foreground text-background font-black uppercase px-4 py-2 border-2 border-transparent group-hover:bg-accent group-hover:text-foreground group-hover:border-foreground transition-colors whitespace-nowrap flex items-center gap-2">
+                <div className="bg-foreground text-background font-black uppercase px-4 py-2 border-2 border-transparent group-hover:bg-accent group-hover:text-black group-hover:border-foreground transition-colors whitespace-nowrap flex items-center gap-2">
                   <span>{t('btn_contact')}</span>
                   <span className="text-xl leading-none group-hover:translate-x-1 transition-transform">→</span>
                 </div>

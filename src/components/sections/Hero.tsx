@@ -53,7 +53,7 @@ export default function Hero() {
     if (target) {
       target.scrollIntoView({ behavior: "smooth" });
       window.history.pushState(null, "", `#${targetId}`);
-      
+
       // Retry scroll after a short delay in case dynamic content loading shifts the layout
       setTimeout(() => {
         const el = document.getElementById(targetId);
@@ -222,11 +222,17 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="flex flex-col sm:flex-row flex-wrap justify-center gap-4 w-full px-4 sm:px-0"
           >
-            <Link href={{ pathname: '/', hash: 'work' }} onClick={(e) => handleScroll(e, 'work')} className="font-bold uppercase bg-primary text-white px-8 py-3 sm:py-4 brutalist-border brutalist-shadow hover:bg-white hover:text-black transition-colors text-center w-full sm:w-auto">
-              {t('btn_projects')}
+            <Link href={{ pathname: '/', hash: 'work' }} onClick={(e) => handleScroll(e, 'work')} className="group relative inline-block w-full sm:w-auto mb-2 sm:mb-0">
+              <div className="absolute inset-0 bg-primary translate-x-1.5 translate-y-1.5 border-2 border-foreground transition-transform duration-300 group-hover:translate-x-2.5 group-hover:translate-y-2.5"></div>
+              <div className="relative bg-foreground text-background border-2 border-foreground px-8 py-3 sm:py-4 font-bold uppercase text-center hover:-translate-y-1 transition-transform duration-300 flex items-center justify-center group-hover:bg-primary group-hover:text-background w-full">
+                {t('btn_projects')}
+              </div>
             </Link>
-            <Link href={{ pathname: '/', hash: 'contact' }} onClick={(e) => handleScroll(e, 'contact')} className="font-bold uppercase bg-white text-black px-8 py-3 sm:py-4 brutalist-border brutalist-shadow hover:bg-primary hover:text-white transition-colors text-center w-full sm:w-auto">
-              {t('btn_contact')}
+            <Link href={{ pathname: '/', hash: 'contact' }} onClick={(e) => handleScroll(e, 'contact')} className="group relative inline-block w-full sm:w-auto mt-4 sm:mt-0">
+              <div className="absolute inset-0 bg-primary translate-x-1.5 translate-y-1.5 border-2 border-foreground transition-transform duration-300 group-hover:translate-x-2.5 group-hover:translate-y-2.5"></div>
+              <div className="relative bg-foreground text-background border-2 border-foreground px-8 py-3 sm:py-4 font-bold uppercase text-center hover:-translate-y-1 transition-transform duration-300 flex items-center justify-center group-hover:bg-primary group-hover:text-background w-full">
+                {t('btn_contact')}
+              </div>
             </Link>
           </m.div>
         </div>

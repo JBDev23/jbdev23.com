@@ -5,6 +5,7 @@
   "Header": {
     "nav_work": "Work",
     "nav_skills": "Skills",
+    "nav_experience": "Experience",
     "nav_about": "About",
     "nav_contact": "Contact"
   },
@@ -16,8 +17,7 @@
     "legal_notice": "Legal Notice",
     "privacy_policy": "Privacy Policy",
     "cookies_policy": "Cookies Policy",
-    "built_with": "Built with",
-    "and_brutalism": "and brutalism"
+    "built_with": "Built by JBDEV23"
   },
   "Hero": {
     "marquee_items": [
@@ -26,7 +26,7 @@
       "BACKEND",
       "UI/UX"
     ],
-    "subtitle": "FullStack Developer crafting unapologetic digital experiences. <br></br> <primary>No fluff, just raw performance.</primary>",
+    "subtitle": "FullStack Software Engineer <br></br> <primary>Real solutions line by line</primary>",
     "btn_projects": "View Projects",
     "btn_contact": "Contact Me"
   },
@@ -73,7 +73,7 @@
     "hobbies_3": "Committed to <bold>volunteering</bold> and youth education in my free time."
   },
   "Projects": {
-    "title": "Selected Work",
+    "title": "Featured Projects",
     "view_all": "View All Projects &rarr;",
     "services_title": "What I Do",
     "web_title": "Web",
@@ -114,7 +114,7 @@
     }
   },
   "Experience": {
-    "title": "My Journey",
+    "title": "Experience",
     "freelance_cat": "Freelance",
     "freelance_title": "Web Developer & Scripting",
     "freelance_date": "Projects",

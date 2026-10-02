@@ -3,8 +3,9 @@
     "title": "JBDEV23 | Portfolio"
   },
   "Header": {
-    "nav_work": "Trabajo",
-    "nav_skills": "Habilidades",
+    "nav_work": "Proyectos",
+    "nav_skills": "Stack",
+    "nav_experience": "Experiencia",
     "nav_about": "Sobre mí",
     "nav_contact": "Contacto"
   },
@@ -16,8 +17,7 @@
     "legal_notice": "Aviso Legal",
     "privacy_policy": "Política de Privacidad",
     "cookies_policy": "Política de Cookies",
-    "built_with": "Construido con",
-    "and_brutalism": "y brutalismo"
+    "built_with": "Construido por JBDEV23"
   },
   "Hero": {
     "marquee_items": [
@@ -26,7 +26,7 @@
       "BACKEND",
       "UI/UX"
     ],
-    "subtitle": "Desarrollador FullStack creando experiencias digitales sin disculpas. <br></br> <primary>Sin rodeos, solo rendimiento puro.</primary>",
+    "subtitle": "Ingeniero Software FullStack <br></br> <primary>Soluciones reales línea a línea</primary>",
     "btn_projects": "Ver Proyectos",
     "btn_contact": "Contactar"
   },
@@ -52,7 +52,7 @@
     "status_subtitle": "Buscando Prácticas",
     "status_desc": "Abierto a oportunidades para aplicar mis conocimientos, seguir aprendiendo y aportar valor en un entorno profesional. ¡Listo para nuevos retos!",
     "edu_title": "Trayectoria & Educación",
-    "edu_desc": "Estudié en <alcoy>Alcoy</alcoy> hasta finalizar Bachiller. Actualmente curso 4º año de <engineering>Ingeniería Informática</engineering> en la <upv>UPV</upv> (València), especializándome en la rama de <software>Ingeniería del Software</software>.",
+    "edu_desc": "Estudié en <alcoy>Alcoy</alcoy> hasta finalizar Bachiller. Actualmente curso 4º año de Ingeniería Informática en la <upv>UPV</upv> (València), especializándome en la rama de <software>Ingeniería del Software</software>.",
     "maker_title": "Maker / Tinkering",
     "maker_1": "Tengo una <bold>impresora 3D</bold> con la que realizo proyectos propios. Utilizo <bold>Blender</bold> para el modelado y diseño de piezas.",
     "maker_2": "Actualmente estoy montando y configurando mi propio <bold>servidor NAS</bold>.",
@@ -84,7 +84,7 @@
     "others_desc": "Python, Java, APIs, Scripts, UI/UX"
   },
   "Skills": {
-    "title": "Mi Arsenal",
+    "title": "Mi Stack",
     "status_idle": "INACTIVO"
   },
   "Contact": {
@@ -114,7 +114,7 @@
     }
   },
   "Experience": {
-    "title": "Mi Trayectoria",
+    "title": "Experiencia",
     "freelance_cat": "Freelance",
     "freelance_title": "Desarrollador Web & Scripting",
     "freelance_date": "Proyectos",
@@ -123,9 +123,9 @@
     "vol_1_title": "Cofundador & Lead Dev | Movember Alcoy-Valencia",
     "vol_1_date": "2019 - Presente",
     "vol_1_desc": "Cofundador de la iniciativa. Actualmente liderando el desarrollo de su plataforma web oficial para visibilizar el movimiento y gestionar la recaudación.",
-    "vol_2_title": "Regidor & Colaborador | Fundación Novaterra",
+    "vol_2_title": "Colaborador & Regidor | Fundación Novaterra",
     "vol_2_date": "Eventual",
-    "vol_2_desc": "Regidor del macro-evento 'Llums solidaries per novaterra' (+500 asistentes). Desarrollé una aplicación propia para llevar la escaleta y control del espectáculo de forma óptima en tiempo real.",
+    "vol_2_desc": "Regidor del macro-evento 'Llums solidaries per Novaterra' (+500 asistentes). Desarrollé una aplicación propia para llevar la escaleta y control del espectáculo de forma óptima en tiempo real.",
     "vol_3_title": "Educador Juvenil & Desarrollador",
     "vol_3_date": "2023 - Presente",
     "vol_3_desc": "Educador voluntario. Creación de herramientas de software a medida para la gestión interna del grupo y desarrollo de apps interactivas de apoyo para juegos y actividades.",

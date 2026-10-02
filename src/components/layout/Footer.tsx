@@ -34,11 +34,11 @@ export default function Footer() {
 
         <div className="max-w-[90%] w-full flex flex-col md:flex-row justify-between items-center gap-12 z-10 relative pt-16 px-4 md:px-8">
 
-          <div className="flex flex-col gap-4 text-center md:text-left">
+          <div className="flex flex-col gap-4 text-center md:text-left group">
             <h3 className="text-6xl md:text-8xl font-black uppercase tracking-tighter leading-none hover:text-primary transition-colors duration-300">
-              JBDev23
+              JBDev<span className="text-primary group-hover:text-black transition-colors">23</span>
             </h3>
-            <p className="font-mono text-xl uppercase font-bold text-accent px-3 py-1 bg-foreground border-2 border-background inline-block w-max mx-auto md:mx-0 shadow-[4px_4px_0_0_var(--background)]">
+            <p className="font-mono text-xl uppercase font-bold text-black px-3 py-1 bg-foreground border-2 border-background inline-block w-max mx-auto md:mx-0 shadow-[4px_4px_0_0_var(--background)]">
               {t('software_engineer')}
             </p>
           </div>
@@ -48,8 +48,8 @@ export default function Footer() {
               href={`mailto:${siteConfig.email}`}
               className="group relative inline-block w-full sm:w-auto"
             >
-              <div className="absolute inset-0 bg-background translate-x-2 translate-y-2 border-4 border-background transition-transform duration-300 group-hover:translate-x-3 group-hover:translate-y-3"></div>
-              <div className="relative bg-background text-foreground border-4 border-background px-8 py-4 font-black text-xl uppercase hover:-translate-y-1 transition-transform duration-300 flex items-center justify-center group-hover:bg-foreground group-hover:text-background group-hover:border-background">
+              <div className="absolute inset-0 bg-magenta translate-x-2 translate-y-2 border-4 border-background transition-transform duration-300 group-hover:translate-x-3 group-hover:translate-y-3"></div>
+              <div className="relative bg-background text-foreground border-4 border-background px-8 py-4 font-black text-xl uppercase hover:-translate-y-1 transition-transform duration-300 flex items-center justify-center group-hover:bg-magenta group-hover:text-background group-hover:border-background">
                 {t('email')}
               </div>
             </a>
@@ -73,7 +73,7 @@ export default function Footer() {
               className="group relative inline-block w-full sm:w-auto"
             >
               <div className="absolute inset-0 bg-accent translate-x-2 translate-y-2 border-4 border-background transition-transform duration-300 group-hover:translate-x-3 group-hover:translate-y-3"></div>
-              <div className="relative bg-background text-foreground border-4 border-background px-8 py-4 font-black text-xl uppercase hover:-translate-y-1 transition-transform duration-300 flex items-center justify-center group-hover:bg-accent group-hover:text-foreground group-hover:border-background">
+              <div className="relative bg-background text-foreground border-4 border-background px-8 py-4 font-black text-xl uppercase hover:-translate-y-1 transition-transform duration-300 flex items-center justify-center group-hover:bg-accent group-hover:text-black group-hover:border-background">
                 {t('linkedin')}
               </div>
             </a>
@@ -99,8 +99,6 @@ export default function Footer() {
 
             <span className="flex items-center gap-2">
               {t('built_with')}
-              <span className="text-primary animate-pulse text-xl">❤</span>
-              {t('and_brutalism')}
             </span>
           </div>
         </div>
