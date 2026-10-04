@@ -198,6 +198,10 @@
     "section_3_text": "Puede usted permitir, bloquear o eliminar las cookies instaladas en su equipo mediante la configuración de las opciones del navegador instalado en su ordenador. Consulte las instrucciones y manuales de su navegador para ampliar esta información."
   },
   "ProjectsList": {
+    "jcp-construcciones": {
+      "title": "JCP Construcciones",
+      "description": "Desarrollo y despliegue íntegro de la web corporativa para JCP Obras y Construcciones, empresa de reformas integrales y piscinas. Plataforma construida con Next.js, React y TailwindCSS, optimizada para SEO y rendimiento, con un diseño moderno enfocado en la conversión y la presentación de proyectos."
+    },
     "portfolio": {
       "title": "Portfolio Personal",
       "description": "Mi portafolio personal, diseñado y desarrollado para mostrar mis proyectos, habilidades y experiencia profesional. Construido con Next.js y animaciones fluidas con Framer Motion, priorizando el rendimiento y una experiencia de usuario moderna."

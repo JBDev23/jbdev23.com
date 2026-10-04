@@ -66,6 +66,16 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://www.jbdev23.com"
   },
   {
+    slug: "jcp-construcciones",
+    title: "JCP Construcciones",
+    technologies: ["Next.js", "React", "TypeScript", "TailwindCSS"],
+    description: "Desarrollo y despliegue íntegro de la web corporativa para JCP Obras y Construcciones, empresa de reformas integrales y piscinas. Plataforma construida con Next.js, React y TailwindCSS, optimizada para SEO y rendimiento, con un diseño moderno enfocado en la conversión y la presentación de proyectos.",
+    image: "/images/jcpconstrucciones.webp",
+    variant: "dark",
+    category: ["web"],
+    liveUrl: "https://www.jcpconstrucciones.com"
+  },
+  {
     slug: "sociograma-ia",
     title: "WeavyAI",
     technologies: ["Next.js", "TypeScript", "TailwindCSS", "Prisma", "PostgreSQL", "Nest.js", "Groq LLM"],
