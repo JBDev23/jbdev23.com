@@ -52,7 +52,7 @@
     "status_subtitle": "Looking for Internship",
     "status_desc": "Open to opportunities to apply my knowledge, keep learning and add value in a professional environment. Ready for new challenges!",
     "edu_title": "Journey & Education",
-    "edu_desc": "Studied in <alcoy>Alcoy</alcoy> until finishing High School. Currently in my 4th year of <engineering>Computer Engineering</engineering> at <upv>UPV</upv> (Valencia), specializing in <software>Software Engineering</software>.",
+    "edu_desc": "Studied in <alcoy>Alcoy</alcoy> until finishing High School. Currently in my 4th year of Computer Engineering at <upv>UPV</upv> (Valencia), specializing in <software>Software Engineering</software>.",
     "maker_title": "Maker / Tinkering",
     "maker_1": "I own a <bold>3D printer</bold> which I use for personal projects. I use <bold>Blender</bold> for modeling and designing parts.",
     "maker_2": "Currently assembling and configuring my own <bold>NAS server</bold>.",
@@ -84,7 +84,7 @@
     "others_desc": "Python, Java, APIs, Scripts, UI/UX"
   },
   "Skills": {
-    "title": "My Arsenal",
+    "title": "My Stack",
     "status_idle": "IDLE"
   },
   "Contact": {

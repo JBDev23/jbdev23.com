@@ -98,12 +98,14 @@ export default function ProjectsSection() {
         >
           {t('title')}
         </m.h3>
-        <m.div variants={itemVariants}>
-          <Link
-            href="/work"
-            className="mt-6 md:mt-0 font-bold uppercase px-6 py-3 bg-white text-black brutalist-border brutalist-shadow-dark hover:bg-primary hover:text-white hover:shadow-none hover:translate-x-1 hover:translate-y-1 transition-all text-center w-full md:w-auto text-sm md:text-base inline-block"
-            dangerouslySetInnerHTML={{ __html: t('view_all') }}
-          />
+        <m.div variants={itemVariants} className="mt-6 md:mt-0 w-full md:w-auto">
+          <Link href="/work" className="group relative inline-block w-full md:w-auto">
+            <div className="absolute inset-0 bg-primary translate-x-1.5 translate-y-1.5 border-2 border-foreground transition-transform duration-300 group-hover:translate-x-2.5 group-hover:translate-y-2.5"></div>
+            <div 
+              className="relative bg-foreground text-background border-2 border-foreground px-6 py-3 font-bold uppercase text-center hover:-translate-y-1 transition-transform duration-300 flex items-center justify-center group-hover:bg-primary group-hover:text-background w-full text-sm md:text-base"
+              dangerouslySetInnerHTML={{ __html: t('view_all') }}
+            />
+          </Link>
         </m.div>
       </m.div>
 
