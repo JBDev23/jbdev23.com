@@ -1,6 +1,31 @@
 import { Link } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
 import { siteConfig } from '@/config/site';
+import { Metadata } from 'next';
+
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const pathEn = '/en/legal-notice';
+  const pathEs = '/es/aviso-legal';
+  const currentPath = locale === 'en' ? pathEn : pathEs;
+
+  return {
+    alternates: {
+      canonical: currentPath,
+      languages: {
+        'es': pathEs,
+        'en': pathEn,
+      },
+    },
+    openGraph: {
+      url: currentPath,
+    }
+  };
+}
 
 export default function AvisoLegal() {
   const t = useTranslations('AvisoLegal');

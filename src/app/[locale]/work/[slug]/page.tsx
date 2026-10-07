@@ -3,7 +3,40 @@ import { Link } from '@/i18n/routing';
 import { PROJECTS } from "@/constants/projects";
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
+import { Metadata } from 'next';
 
+type Props = {
+  params: Promise<{ locale: string; slug: string }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale, slug } = await params;
+  
+  const project = PROJECTS.find((p) => p.slug === slug);
+  if (!project) return {};
+
+  const tProjects = await getTranslations('ProjectsList');
+  const title = tProjects(`${project.slug}.title`);
+
+  const pathEn = `/en/work/${slug}`;
+  const pathEs = `/es/proyectos/${slug}`;
+  const currentPath = locale === 'en' ? pathEn : pathEs;
+
+  return {
+    title,
+    alternates: {
+      canonical: currentPath,
+      languages: {
+        'es': pathEs,
+        'en': pathEn,
+      },
+    },
+    openGraph: {
+      title,
+      url: currentPath,
+    }
+  };
+}
 export default async function ProjectDetail({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
 

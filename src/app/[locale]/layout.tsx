@@ -39,17 +39,9 @@ export async function generateMetadata(
     },
     description: t('description'),
     metadataBase: new URL('https://jbdev23.com'),
-    alternates: {
-      canonical: `/${locale}`,
-      languages: {
-        'es': '/es',
-        'en': '/en',
-      },
-    },
     openGraph: {
       title: t('title'),
       description: t('description'),
-      url: `https://jbdev23.com/${locale}`,
       siteName: 'JBDEV23 Portfolio',
       locale: locale,
       type: 'website',

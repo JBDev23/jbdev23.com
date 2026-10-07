@@ -1,5 +1,30 @@
 import { Link } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
+import { Metadata } from 'next';
+
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const pathEn = '/en/cookie-policy';
+  const pathEs = '/es/politica-cookies';
+  const currentPath = locale === 'en' ? pathEn : pathEs;
+
+  return {
+    alternates: {
+      canonical: currentPath,
+      languages: {
+        'es': pathEs,
+        'en': pathEn,
+      },
+    },
+    openGraph: {
+      url: currentPath,
+    }
+  };
+}
 
 export default function PoliticaCookies() {
   const t = useTranslations('PoliticaCookies');

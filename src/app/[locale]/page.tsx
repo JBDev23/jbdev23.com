@@ -9,6 +9,28 @@ const ExperienceSection = dynamic(() => import("@/components/sections/Experience
 const AboutSection = dynamic(() => import("@/components/sections/AboutSection"));
 const ContactSection = dynamic(() => import("@/components/sections/ContactSection"));
 
+import { Metadata } from 'next';
+
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    alternates: {
+      canonical: `/${locale}`,
+      languages: {
+        'es': '/es',
+        'en': '/en',
+      },
+    },
+    openGraph: {
+      url: `/${locale}`,
+    }
+  };
+}
+
 export default function Home() {
   return (
     <main className="flex-1 flex flex-col font-mono">
