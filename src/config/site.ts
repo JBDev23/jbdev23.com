@@ -6,5 +6,5 @@ export const siteConfig = {
     github: "https://github.com/JBDev23",
     linkedin: "https://www.linkedin.com/in/jordi-barrachina-m%C3%A9ndez/",
   },
-  url: "https://jbdev23.com",
+  url: "https://www.jbdev23.com",
 };

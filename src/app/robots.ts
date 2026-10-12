@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://jbdev23.com/sitemap.xml',
+    sitemap: 'https://www.jbdev23.com/sitemap.xml',
   }
 }

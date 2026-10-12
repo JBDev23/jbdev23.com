@@ -19,6 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       languages: {
         'es': pathEs,
         'en': pathEn,
+        'x-default': pathEs,
       },
     },
     openGraph: {
